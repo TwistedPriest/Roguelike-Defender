@@ -36,7 +36,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="main.cpp" />
+		<Unit filename="equipment.h" />
+		<Unit filename="item.h" />
+		<Unit filename="libinv.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
