@@ -1,5 +1,9 @@
 #include "firespell.h"
 
-void FireSpell::apply() {
-    return;
+namespace RglkDef {
+
+    void FireSpell::apply() {
+        return;
+    }
+
 }

@@ -1,5 +1,9 @@
 #include "absspell.h"
 
-void AbsSpell::apply() {
-    return;
+namespace RglkDef {
+
+    void AbsSpell::apply() {
+        return;
+    }
+
 }

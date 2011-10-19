@@ -21,4 +21,3 @@ namespace RglkDef {
 }
 
 #endif // MAGIC_H
-

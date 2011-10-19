@@ -5,14 +5,14 @@
 
 namespace RglkDef {
 
-class AbsSpell : public Spell {
-    public:
-        AbsSpell(int duration, int area, int cost) :
-            Spell(duration, area, cost) {
-        };
+    class AbsSpell : public Spell {
+        public:
+            AbsSpell(int duration, int area, int cost) :
+                Spell(duration, area, cost) {
+            };
 
-        void apply();
-};
+            void apply();
+    };
 
 }
 

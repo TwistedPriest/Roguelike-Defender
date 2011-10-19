@@ -1,5 +1,9 @@
 #include "healspell.h"
 
-void HealSpell::apply() {
-    return;
+namespace RglkDef {
+
+    void HealSpell::apply() {
+        return;
+    }
+
 }

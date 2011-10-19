@@ -5,14 +5,14 @@
 
 namespace RglkDef {
 
-class HealSpell : public Spell {
-    public:
-        HealSpell(int duration, int area, int cost) :
-            Spell(duration, area, cost) {
-        };
+    class HealSpell : public Spell {
+        public:
+            HealSpell(int duration, int area, int cost) :
+                Spell(duration, area, cost) {
+            };
 
-        void apply();
-};
+            void apply();
+    };
 
 }
 
