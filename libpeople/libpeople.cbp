@@ -36,7 +36,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="main.cpp" />
+		<Unit filename="character.h" />
+		<Unit filename="enemy.h" />
+		<Unit filename="player.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />
