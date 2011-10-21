@@ -4,19 +4,20 @@
 #include <string>
 #include <vector>
 
-#include "character.h"
+#include "fighter.h"
 #include "equipment.h"
 #include "spell.h"
 
 namespace RglkDef {
 
-    class Player : public Character {
+    class Player : public Fighter {
         public:
             Player(int level, int gold, std::string name, int str, int end) :
-                Character(level, gold), m_inventory(std::vector< Equipment* >()),
-                m_spells(std::vector< Spell* >()), m_name(name) {
-                    m_maxMagicka = (m_endurance + (m_level * m_level));
-                    m_magicka = m_maxMagicka;
+                Fighter(level, gold), m_name(name) {
+                    m_inventory     = std::vector< Equipment* >();
+                    m_spells        = std::vector< Spell* >();
+                    m_maxMagicka    = (m_endurance + (m_level * m_level));
+                    m_magicka       = m_maxMagicka;
             };
             ~Player();
 

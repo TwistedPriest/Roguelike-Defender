@@ -1,16 +1,21 @@
 #ifndef ENEMY_H
 #define ENEMY_H
 
-#include "character.h"
+#include "fighter.h"
 
 namespace RglkDef {
 
-    class Enemy : public Character {
+    class Enemy : public Fighter {
         public:
             Enemy(int level, int gold, int health, int maxHealth) :
-                Character(level, gold, health, maxHealth) {
+                Fighter(level, gold, health, maxHealth) {
                     m_inventory = std::vector< Equipment* >();
             };
+
+            Drop &drop();
+
+        private:
+
     };
 
 }

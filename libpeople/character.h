@@ -27,8 +27,6 @@ namespace RglkDef {
                 if (m_health > m_maxHealth) m_health = m_maxHealth;
             };
 
-            inline virtual void addLevel() = 0; // everyone does it different
-
         private:
             int m_gold, m_level, m_health, m_maxHealth;
     };
