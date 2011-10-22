@@ -36,7 +36,18 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="main.cpp" />
+		<Unit filename="absenchant.h" />
+		<Unit filename="absspell.cpp" />
+		<Unit filename="absspell.h" />
+		<Unit filename="enchant.h" />
+		<Unit filename="fireenchant.h" />
+		<Unit filename="firespell.cpp" />
+		<Unit filename="firespell.h" />
+		<Unit filename="healenchant.h" />
+		<Unit filename="healspell.cpp" />
+		<Unit filename="healspell.h" />
+		<Unit filename="magic.h" />
+		<Unit filename="spell.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />

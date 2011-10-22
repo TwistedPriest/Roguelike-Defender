@@ -22,4 +22,4 @@ namespace RglkDef {
 
 }
 
-#endif // FIREENCHANT_H
+#endif // ENCHANT_H

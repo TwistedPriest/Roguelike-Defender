@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="absenchant.h" open="1" top="0" tabpos="4">
+		<Cursor position="286" topLine="0" />
+	</File>
+	<File name="absspell.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="44" topLine="0" />
+	</File>
+	<File name="absspell.h" open="0" top="0" tabpos="3">
+		<Cursor position="284" topLine="0" />
+	</File>
+	<File name="enchant.h" open="1" top="0" tabpos="2">
+		<Cursor position="379" topLine="0" />
+	</File>
+	<File name="fireenchant.h" open="1" top="0" tabpos="3">
+		<Cursor position="286" topLine="0" />
+	</File>
+	<File name="firespell.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="99" topLine="0" />
+	</File>
+	<File name="firespell.h" open="0" top="0" tabpos="4">
+		<Cursor position="287" topLine="0" />
+	</File>
+	<File name="healenchant.h" open="1" top="1" tabpos="5">
+		<Cursor position="258" topLine="0" />
+	</File>
+	<File name="healspell.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="100" topLine="0" />
+	</File>
+	<File name="healspell.h" open="0" top="0" tabpos="2">
+		<Cursor position="40" topLine="0" />
+	</File>
+	<File name="magic.h" open="1" top="0" tabpos="1">
+		<Cursor position="473" topLine="0" />
+	</File>
+	<File name="spell.h" open="0" top="0" tabpos="1">
+		<Cursor position="104" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

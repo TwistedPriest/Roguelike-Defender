@@ -21,12 +21,12 @@ namespace RglkDef {
             inline virtual int getWeight() const        { return m_weight; };
             inline virtual int getCondition() const     { return m_condition; };
             inline virtual int getMaxCondition() const  { return m_maxCondition; };
-            inline virtual bool isEnchanted() const     { return m_isEnchanted; };
 
             inline virtual void setCondition(int con)   { m_condition = con; };
 
-            virtual void addEnchantment(Enchant *) = 0;
-
+            virtual void addEnchantment(Enchant *)  = 0;
+            virtual Enchant *getEnchantment()       = 0;
+            virtual bool isEnchanted() const        = 0;
         private:
             std::string m_name;
             int m_weight;

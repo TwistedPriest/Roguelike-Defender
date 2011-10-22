@@ -38,6 +38,8 @@
 		</Compiler>
 		<Unit filename="character.h" />
 		<Unit filename="enemy.h" />
+		<Unit filename="fighter.h" />
+		<Unit filename="merchant.h" />
 		<Unit filename="player.h" />
 		<Extensions>
 			<code_completion />
