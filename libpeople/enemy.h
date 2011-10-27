@@ -2,6 +2,7 @@
 #define ENEMY_H
 
 #include "fighter.h"
+#include "drop.h"
 
 namespace RglkDef {
 
@@ -12,10 +13,10 @@ namespace RglkDef {
                     m_inventory = std::vector< Equipment* >();
             };
 
-            Drop &drop();
+            void drop();
 
         private:
-
+            Drop &m_drop;
     };
 
 }
