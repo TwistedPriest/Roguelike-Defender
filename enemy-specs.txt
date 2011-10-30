@@ -1,0 +1,70 @@
+Name:Green Slime
+Boss:N
+Level:1-2
+Attack:3-5
+Defense:1-2
+Drop:{
+	XP:5-7
+	Gold:3-9
+	Equipment:{
+		Spell:None
+		Armor:None
+		Weapon:None
+		Bauble:{
+			Vial of Slime:1-5
+		}
+	}
+}
+
+
+This is fairly self-explanatory to me (of course, I wrote it) but a quick run-down:
+
+	Name:Green Slime
+	
+This is the mob's name. A string.
+
+	Boss:N
+	
+Is this mob a boss? Valid options are Y/N.
+
+	Level:1-2
+
+This is the mob's level. An integer range. To specify a level, use the same number for min and max level.
+
+	Attack:3-5
+
+The mob's attack ability. An integer range.
+
+	Defense:1-2
+	
+Defensive capability. Percentage of damage reduced.
+
+
+Now we start describing what the mob drops. There are three types of things a mob can drop: XP, gold, and equipment. XP and gold are integer ranges, while equipment is a little more complicated. Equipment can either be spells, armor, weapons, or baubles. Baubles are the random items that are sold to merchants: they can't be used for anything except increasing your store of lucre. Specify the name of the bauble (string) and the number dropped (integer range) thusly:
+
+	Vial of Slime:1-5
+
+To describe a spell, you specify both the effect (fire, heal, absorb) and the magnitude (integer range), thusly:
+
+	Spell:{
+		Effect:Heal
+		Magnitude:50-75
+	}
+
+An example weapon:
+
+	Weapon:{
+		Type:Axe
+		Attack:16-21
+	}
+
+The type is either axe, sword, spear, or bow. Attack is an integer range.
+
+For armor:
+
+	Armor:{
+		Location:Chest
+		Rating:14-19
+	}
+
+Location is a string specifying where the armor is equipped and be either chest, arms, legs, head, or feet. Rating is an integer range that describes the damage reduction rating. There is no light, heavy, or medium armor, just armor. Maybe in the future.
